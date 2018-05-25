@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+}
+
+/* Style the header */
+.header {
+	background-image: url("CSU Assignment_Edited.jpg");
+	background-size :100% 100%;
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+	font-weight: bold;
+	color:#079439;
+	text-shadow: -2px 0 black, 0 4px black, 4px 0 black, 0 -2px black;
+
+}
+.headerstage{
+	background-color: green;
+	padding:25px;
+	text-align:center;
+	font-size: 40px;
+	font-weight: bold;
+	color:white;
+}
+/* Navigation Bar*/	
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+	float:left;
+	margin-left:80px;
+	margin-top: 15px;
+	margin-bottom:15px;
+	margin-right: 70px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: greenyellow;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: greenyellow}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	/* Style the "active" element to highlight the current page */
+ a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.search{
+	width:250px;
+	padding:10px;
+	border-radius: 10px 0 0 10px;
+	border:none;
+	border :1px blue;
+	margin-top: 10px;
+	margin-bottom:10px;
+	
+}
+
+	/*Search Box button*/
+  button {
+  float: right;
+  background: greenyellow;
+  color:black;
+  border-radius:0 10px 10px 0;
+  padding: 10px;
+  cursor:pointer;
+  position:relative;
+  border:none;  	 
+  margin-top:10px;
+  background: greenyellow;
+  font-size: 13px;
+
+}
+	/* Welcome Page */
+
+.welcome {
+    padding: 20px;
+    text-align: left;
+    background: #1c8b03;
+	background-color: white;
+}
